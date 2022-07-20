@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "teacherapp",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "C:\\dev\\projects\\sites\\teacher-app\\amplify\\backend\\api\\teacherapp\\schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authteacherapp1302d137"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
+  }
+}

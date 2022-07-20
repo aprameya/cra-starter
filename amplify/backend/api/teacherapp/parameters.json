@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "teacherapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authteacherapp1302d137",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
